@@ -26,3 +26,7 @@ sister(X, Y) :- sibling(X, Y), female(X).
 
 % Define grandparent relationship.
 grandparent(X, Y) :- parent(X, Z), parent(Z, Y).
+output for prolgcode:
+?- father(john, Child).
+
+
