@@ -24,3 +24,12 @@ distance(uranus, sun, 19.22).
 distance(neptune, sun, 30.05).
 small_planet(X) :- size(X, small).
 large_planet(X) :- size(X, large).
+output for prolog code:
+?- small_planet(X).
+X = mercury
+?- large_planet(X)
+X = jupiter.
+?- distance(earth, sun, Distance).
+Distance = 1.0.
+
+
