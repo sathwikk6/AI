@@ -10,3 +10,6 @@ hanoi(N, Source, Target, Auxiliary, Moves) :-
 
 % Define the predicate to move a single disc.
 move(Disc, Source, Target, move(Disc, Source, Target)).
+output for prolog code:
+?- hanoi(3, 'A', 'C', 'B', Moves).
+
