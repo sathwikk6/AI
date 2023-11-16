@@ -12,3 +12,12 @@ teacher_for_subject(Subject, Teacher) :-
 
 students_for_subject(Subject, Students) :-
     setof(Student, enrolled(Student, Subject), Students).
+    output for prolog code:
+    OUTPUT:
+?-  teacher_for_subject('MATH101', Teacher).
+Teacher = teacher1.
+
+?-  students_for_subject('CHEM101', Students).
+Students = [amy, bob].
+
+
