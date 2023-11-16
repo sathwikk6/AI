@@ -6,4 +6,6 @@ person(ravi,'1990-03-25').
 
 get_dob(Name,DOB):-
     person(Name,DOB).
+    output for prolog code:
+    get_dob(john,DOB).
 
